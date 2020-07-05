@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  margin: 19px;
+  height: 500px;
+}
+
+.QstnHeading {
+  text-align: center;
+}
+.OptionsStyle {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.buttons {
+  margin-right: 10px;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-right: 10px;
+  padding: 0.2rem;
+}
